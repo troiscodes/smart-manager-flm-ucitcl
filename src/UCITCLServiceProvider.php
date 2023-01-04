@@ -2,9 +2,9 @@
 
 namespace AgenceKonig\UCITCL;
 
+use AgenceKonig\UCITCL\Commands\UCITCLCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AgenceKonig\UCITCL\Commands\UCITCLCommand;
 
 class UCITCLServiceProvider extends PackageServiceProvider
 {

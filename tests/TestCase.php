@@ -2,9 +2,9 @@
 
 namespace AgenceKonig\UCITCL\Tests;
 
+use AgenceKonig\UCITCL\UCITCLServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AgenceKonig\UCITCL\UCITCLServiceProvider;
 
 class TestCase extends Orchestra
 {
