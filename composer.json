@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "agencekonig/smart-manager-flm-ucitcl",
+    "description": "This is my package smart-manager-flm-ucitcl",
     "keywords": [
-        ":vendor_name",
+        "agencekonig",
         "laravel",
-        ":package_slug"
+        "smart-manager-flm-ucitcl"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/agencekonig/smart-manager-flm-ucitcl",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "3CODES",
+            "email": "contact@3codes.io",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "AgenceKonig\\UCITCL\\": "src",
+            "AgenceKonig\\UCITCL\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "AgenceKonig\\UCITCL\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "AgenceKonig\\UCITCL\\UCITCLServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "UCITCL": "AgenceKonig\\UCITCL\\Facades\\UCITCL"
             }
         }
     },

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AgenceKonig\UCITCL\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class UCITCLCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'smart-manager-flm-ucitcl';
 
     public $description = 'My command';
 
